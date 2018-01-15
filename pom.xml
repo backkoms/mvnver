@@ -10,9 +10,8 @@
 	</modules>
 
 	<scm>
-		<url>http://www.svn.com</url>
-		<connection>scm:svn:https://www.moneytocar.com:8443/svn/tech/trunk</connection>
-		<developerConnection>scm:svn:https://www.moneytocar.com:8443/svn/tech/trunk</developerConnection>
+		<connection>scm:git://https://github.com/backkoms/mvnver.git</connection>
+		<developerConnection>scm:git://https://github.com/backkoms/mvnver.git</developerConnection>
 	</scm>
 	<distributionManagement>
 		<repository>
@@ -33,16 +32,11 @@
 				<artifactId>maven-release-plugin</artifactId>
 				<version>2.5.3</version>
 				<configuration>
-					<tagBase>https://www.moneytocar.com:8443/svn/tech/tags/</tagBase>
-					<branchBase>https://www.moneytocar.com:8443/svn/tech/branches</branchBase>
+					<tagBase>https://github.com/backkoms/mvnver.git/tags/</tagBase>
+					<branchBase>https://github.com/backkoms/mvnver.git/branches</branchBase>
 					<tagNameFormat>@{version}</tagNameFormat>
-					<username>guodeqiang</username>
-					<password>guodeqiang</password>
-					<checkModificationExcludes>
-						<checkModificationExclude>.project</checkModificationExclude>
-						<checkModificationExclude>.settings</checkModificationExclude>
-						<checkModificationExclude>.classpath</checkModificationExclude>
-					</checkModificationExcludes>
+					<username>andy.deqiang@gmail.com	</username>
+					<password>buffer890-=</password>
 					<useReleaseProfile>false</useReleaseProfile>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 				</configuration>
