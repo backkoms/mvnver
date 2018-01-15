@@ -3,7 +3,7 @@
   <parent>
     <groupId>cn.local.software.ver</groupId>
     <artifactId>local-proj</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
   </parent>
   <groupId>cn.local.software.ver.api</groupId>
   <artifactId>local-api</artifactId>
@@ -11,7 +11,7 @@
   	<dependency>
   		<groupId>cn.local.software.ver.host</groupId>
   		<artifactId>local-host</artifactId>
-  		<version>0.0.2-SNAPSHOT</version>
+  		<version>0.0.2</version>
   	</dependency>
   </dependencies>
 </project>
