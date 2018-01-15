@@ -4,6 +4,7 @@
     <groupId>cn.local.software.ver</groupId>
     <artifactId>local-proj</artifactId>
     <version>0.0.2</version>
+    <relativePath>../pom.xml</relativePath>
   </parent>
   <groupId>cn.local.software.ver.api</groupId>
   <artifactId>local-api</artifactId>
